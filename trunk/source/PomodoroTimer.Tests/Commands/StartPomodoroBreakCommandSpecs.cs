@@ -5,7 +5,7 @@
 	using Xunit;
 
 	[Concern (typeof (PomodoroTimerCommand))]
-	public class when_command_is_executed : InstanceContextSpecification<PomodoroTimerCommand>
+	public class when_timer_command_is_executed : InstanceContextSpecification<PomodoroTimerCommand>
 	{
 		private ICountDownTimer countDownTimer;
 		private TimeSpan countDown;
