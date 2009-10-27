@@ -1,4 +1,4 @@
-﻿from PomodoroTimer.Plugin import ScriptCommandBase
+from PomodoroTimer.Plugin import ScriptCommandBase
 from PomodoroTimer.Plugin import IOutputStream
 
 print "loading Script"
